@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rti--tag {
+  background-color: #2a303c;
+}
+
+.--rti-bg {
+  background-color: #131c2e;
+}
+.rti--input {
+  background: none;
+}
+
+/* Transition */
+* {
+  transition: all 0.1s ease-in-out;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+.body-map__muscle {
+  color: #fff;
+}
+
+.body-map__muscle:hover {
+  background: #1151d1;
+  color: #1151d1;
+}
