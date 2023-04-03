@@ -28,10 +28,9 @@ const VideoContainer = ({
       <div>VIDEO OF {muscle}</div>
       <div className="w-full h-full">
         <iframe
-          //   style={{ width: '100%', height: '100%' }}
           className="w-full h-screen py-20 md:py-32"
-          src={'https://www.youtube.com/embed/' + videoId}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          src={'https://tube.rvere.com/embed?v=' + videoId}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen={true}
         />
       </div>
